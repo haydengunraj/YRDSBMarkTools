@@ -26,5 +26,5 @@ Sample Output:
 ### Dependencies
 
 - [Python 2.7](https://www.python.org/downloads/)
-- [BeautifulSoup4](https://github.com/kennethreitz/requests)
-- [XlsxWriter](https://github.com/requests/requests-oauthlib)
+- [BeautifulSoup4](http://www.crummy.com/software/BeautifulSoup/)
+- [XlsxWriter](http://xlsxwriter.readthedocs.org/)
