@@ -19,7 +19,7 @@ bob = Student("123456789", "password", "cc_password")
 bob.unofficial_transcript()
 ```
 Sample Output:
-![Sample1](url "Sample1")
+![Sample1](https://github.com/haydengunraj/YRDSBMarkTools/blob/master/samples/Sample1.png?raw=true "Sample1")
 
 
 
