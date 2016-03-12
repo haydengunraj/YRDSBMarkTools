@@ -5,7 +5,7 @@ from xlsxwriter import *
 class Student(object):
     """A YRDSB student"""
     def __init__(self, username, password, cc_password):
-        """Username(student #), school password, and Career Cruising password"""
+        """Username(student #), TeachAssist password, and Career Cruising password"""
         self.username = username
         self.password = password
         self.cc_password = cc_password
