@@ -6,7 +6,8 @@ I sorta just got bored over the course of a few days and so I ended up throwing 
 
 ####Create New Student
 ```python
-from yrdsbmarktools.objects.student import *
+#import student class and functions from objects/student.py
+from objects.student import *
 
 #create new student object with student number, YRDSB password, and Career Cruising password
 bob = Student("123456789", "password", "cc_password")
