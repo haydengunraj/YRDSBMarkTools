@@ -29,3 +29,4 @@ Sample Output:
 - [Python 2.7](https://www.python.org/downloads/)
 - [BeautifulSoup4](http://www.crummy.com/software/BeautifulSoup/)
 - [XlsxWriter](http://xlsxwriter.readthedocs.org/)
+- [Mechanize] (http://wwwsearch.sourceforge.net/mechanize/)
