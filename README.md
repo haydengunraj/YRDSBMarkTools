@@ -11,7 +11,7 @@ Please note that this code scrapes the HTML from the sites, so if the layout of 
 #import student class and functions from objects/student.py
 from objects.student import *
 
-#create new student object with student number, YRDSB password, and Career Cruising password
+#create new student object with student number, TeachAssist password, and Career Cruising password
 bob = Student("123456789", "password", "cc_password")
 ```
 
