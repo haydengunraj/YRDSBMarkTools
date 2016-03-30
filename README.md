@@ -1,6 +1,8 @@
 # YRDSBMarkTools
 
-I sorta just got bored over the course of a few days and so I ended up throwing this together. This library can be used to interact with mark information pulled from YRDSB TeachAssist and Career Cruising. I'm not entirely sure what it might be useful for, but enjoy if you do use it!
+I sorta just got bored over the course of a few days and so I ended up throwing this together. This library can be used to interact with mark information pulled from YRDSB TeachAssist and Career Cruising. I'm not entirely sure what it might be useful for, but enjoy if you do use it! 
+
+Please note that this code scrapes the HTML from the sites, so if the layout of the sites changes the code will not work. Let me know if this happens and I'll fix it ASAP.
 
 ###Sample Usage
 
