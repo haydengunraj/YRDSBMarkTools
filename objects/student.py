@@ -36,7 +36,7 @@ class Student(object):
         return course_data
         
     def unofficial_transcript(self):
-        """One of the more interesting/useful functions here, this will
+        """One of the more interesting/useful methods here, this will
         save all past courses, including marks and credit values, into a
         pre-formatted excel spreadsheet"""
         course_data = self.get_cc_marks()
@@ -96,10 +96,14 @@ class Student(object):
         bs = BeautifulSoup(mark_page, "html.parser")
         if bs.find("font", { "color" : "red" }) != None:
             raise ValueError("YRDSB username or password is incorrect")
-        course_links = bs.findAll("table")[1].findAll("a")
+        all_links = br.links()
+        course_links = []
+        for link in all_links:
+            if "current mark" in link.text:
+                course_links.append(link)
         markbook = Workbook("markbook.xlsx")
         for link in course_links:
-            course_page = br.follow_link(url=link["href"])
+            course_page = br.follow_link(link)
             bs = BeautifulSoup(course_page, "html.parser")
             course = bs.find("h2").text
             marksheet = markbook.add_worksheet()
