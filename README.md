@@ -8,17 +8,17 @@ Please note that this code scrapes the HTML from the sites, so if the layout of 
 
 ####Create New Student
 ```python
-#import student class and functions from objects/student.py
+#import student class from objects/student.py
 from objects.student import *
 
 #create new student object with student number, TeachAssist password, and Career Cruising password
 bob = Student("123456789", "password", "cc_password")
 ```
 
-####Call Student Functions
+####Call Student Methods
 
 ```python
-#this function creates an excel spreadsheet with all past courses, including marks and credits
+#this method creates an excel spreadsheet with all past courses, including marks and credits
 bob.unofficial_transcript()
 ```
 Sample Output:
